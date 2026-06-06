@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,17 +21,21 @@
 </header>
 
 <section class="collection-section">
+
     <h2>Our Book Collection</h2>
+
     <p class="collection-subtitle">
         Browse our latest collection and order your favorite books.
     </p>
 
     <div class="book-grid">
 
+        <!-- BOOK 1 -->
+
         <div class="book-card">
 
             <img src="power-of-habit.jpg"
-                 alt="The Power of Habit by Charles Duhigg">
+                 alt="The Power of Habit">
 
             <h3>The Power of Habit</h3>
 
@@ -39,177 +44,147 @@
             <p><strong>Category:</strong> Self-Help / Psychology</p>
 
             <p>
-                The Power of Habit explores the science behind why habits
-                exist and how they can be changed. Charles Duhigg introduces
-                the Habit Loop—Cue, Routine, and Reward—and explains how
-                understanding habits can improve productivity, health,
-                business performance, and personal success.
-            </p>
-
-            <p>
-                Through engaging stories and scientific research, the book
-                demonstrates how habits shape our daily lives and how small
-                changes can lead to remarkable results.
+                Learn how habits are formed and how they can be changed
+                to improve productivity, health, and personal success.
             </p>
 
             <p class="price">₹300</p>
 
-            <<button onclick="addToCart(
-            'The Power of Habit',
-            300,
-            'power-of-habit.jpg'
+            <button onclick="addToCart(
+                'The Power of Habit',
+                300,
+                'power-of-habit.jpg'
             )">
-        Add to Cart
-</button>
+                Add to Cart
+            </button>
+
+        </div>
+
+        <!-- BOOK 2 -->
+
+        <div class="book-card">
+
+            <img src="who-says-elephants-cant-dance.jpg"
+                 alt="Who Says Elephants Can't Dance">
+
+            <h3>Who Says Elephants Can't Dance?</h3>
+
+            <p><strong>Author:</strong> Louis V. Gerstner Jr.</p>
+
+            <p><strong>Category:</strong> Management</p>
+
+            <p>
+                The story of IBM's turnaround and lessons in leadership,
+                business transformation and corporate strategy.
+            </p>
+
+            <p class="price">₹300</p>
+
+            <button onclick="addToCart(
+                'Who Says Elephants Can&apos;t Dance?',
+                300,
+                'who-says-elephants-cant-dance.jpg'
+            )">
+                Add to Cart
+            </button>
+
+        </div>
+
+        <!-- BOOK 3 -->
+
+        <div class="book-card">
+
+            <img src="top-visionaries-who-changed-the-world.jpg"
+                 alt="Top Visionaries Who Changed the World">
+
+            <h3>Top Visionaries Who Changed the World</h3>
+
+            <p><strong>Author:</strong> George Ilian</p>
+
+            <p><strong>Category:</strong> Biography / Leadership</p>
+
+            <p>
+                Inspiring stories of influential visionaries, innovators,
+                entrepreneurs and leaders who shaped the modern world.
+            </p>
+
+            <p class="price">₹300</p>
+
+            <button onclick="addToCart(
+                'Top Visionaries Who Changed the World',
+                300,
+                'top-visionaries-who-changed-the-world.jpg'
+            )">
+                Add to Cart
+            </button>
+
+        </div>
+
+        <!-- BOOK 4 -->
+
+        <div class="book-card">
+
+            <img src="48-laws-of-power.jpg"
+                 alt="The 48 Laws of Power">
+
+            <h3>The 48 Laws of Power</h3>
+
+            <p><strong>Author:</strong> Robert Greene</p>
+
+            <p><strong>Category:</strong> Strategy / Self-Development</p>
+
+            <p>
+                A bestselling guide to influence, leadership, power
+                dynamics and strategic thinking.
+            </p>
+
+            <p class="price">₹450</p>
+
+            <button onclick="addToCart(
+                'The 48 Laws of Power',
+                450,
+                '48-laws-of-power.jpg'
+            )">
+                Add to Cart
+            </button>
+
+        </div>
+
+        <!-- BOOK 5 -->
+
+        <div class="book-card">
+
+            <img src="how-to-read-better-and-faster.jpg"
+                 alt="How to Read Better and Faster">
+
+            <h3>How to Read Better and Faster</h3>
+
+            <p><strong>Author:</strong> Norman Lewis</p>
+
+            <p><strong>Category:</strong> Education</p>
+
+            <p>
+                Improve reading speed, concentration and comprehension
+                using proven learning techniques.
+            </p>
+
+            <p class="price">₹250</p>
+
+            <button onclick="addToCart(
+                'How to Read Better and Faster',
+                250,
+                'how-to-read-better-and-faster.jpg'
+            )">
+                Add to Cart
+            </button>
 
         </div>
 
     </div>
-    <div class="book-card">
 
-    <img src="who-says-elephants-cant-dance.jpg"
-         alt="Who Says Elephants Can't Dance?">
-
-    <h3>Who Says Elephants Can't Dance?</h3>
-
-    <p><strong>Author:</strong> Louis V. Gerstner Jr.</p>
-
-    <p><strong>Category:</strong> Management / Business Leadership</p>
-
-    <p>
-        Who Says Elephants Can't Dance? is the inspiring story of how
-        Louis V. Gerstner Jr. transformed IBM from a struggling company
-        into one of the world's leading technology organizations.
-    </p>
-
-    <p>
-        Drawing from his experience as IBM's CEO, Gerstner shares
-        valuable lessons on leadership, organizational change,
-        corporate culture, strategy, and managing large enterprises
-        during periods of dramatic transformation.
-    </p>
-
-    <p class="price">₹300</p>
-
-    <button onclick="addToCart('Who Says Elephants Can&apos;t Dance?'450
-                              'who-says-elephants-cant-dance.jpg')">
-        Add to Cart
-    </button>
-
-</div>
-    <div class="book-card">
-
-    <img src="top-visionaries-who-changed-the-world.jpg"
-         alt="Top Visionaries Who Changed the World">
-
-    <h3>Top Visionaries Who Changed the World</h3>
-
-    <p><strong>Author:</strong> George Ilian</p>
-
-    <p><strong>Edition:</strong> Revised Edition</p>
-
-    <p><strong>Category:</strong> Biography / Leadership</p>
-
-    <p>
-        This book presents the inspiring stories of influential visionaries
-        who transformed industries, societies, and the world through their
-        ideas, determination, and leadership.
-    </p>
-
-    <p>
-        Readers can learn valuable lessons from the lives and achievements
-        of remarkable innovators, entrepreneurs, and leaders who left a
-        lasting impact on history.
-    </p>
-
-    <p class="price">₹300</p>
-
-    <button onclick="addToCart('Top Visionaries Who Changed the World'450,
-        'top-visionaries-who-changed-the-world.jpg')">
-        Add to Cart
-    </button>
-
-</div>
-    <div class="book-card">
-
-    <img src="48-laws-of-power.jpg"
-         alt="The 48 Laws of Power">
-
-    <h3>The 48 Laws of Power</h3>
-
-    <p><strong>Author:</strong> Robert Greene</p>
-
-    <p><strong>Created with:</strong> Joost Elffers</p>
-
-    <p><strong>Category:</strong> Strategy / Self-Development</p>
-
-    <p>
-        The 48 Laws of Power is a bestselling guide to understanding
-        influence, leadership, strategy, and human behavior through
-        lessons drawn from historical figures and events.
-    </p>
-
-    <p>
-        Robert Greene presents forty-eight principles designed to help
-        readers understand power dynamics and improve their ability to
-        navigate professional and personal relationships.
-    </p>
-
-    <p class="price">₹450</p>
-
-    <button onclick="addToCart('The 48 Laws of Power'450,
-                              '48-laws-of-power.jpg' )">
-        Add to Cart
-    </button>
-
-</div>
-    <div class="book-card">
-
-    <img src="how-to-read-better-and-faster.jpg"
-         alt="How to Read Better and Faster">
-
-    <h3>How to Read Better and Faster</h3>
-
-    <p><strong>Author:</strong> Norman Lewis</p>
-
-    <p><strong>Category:</strong> Education / Self-Improvement</p>
-
-    <p>
-        How to Read Better and Faster helps readers improve reading speed,
-        comprehension, concentration, and study efficiency through
-        practical exercises and proven techniques.
-    </p>
-
-    <p>
-        Ideal for students, professionals, and lifelong learners who want
-        to absorb information more effectively and make better use of
-        their reading time.
-    </p>
-
-    <p class="price">₹250</p>
-
-    <button onclick="addToCart('How to Read Better and Faster'450
-                              'how-to-read-better-and-faster.jpg' )">
-        Add to Cart
-    </button>
-
-</div>
 </section>
 
 <section class="cart-section">
-    <h2>Shopping Cart</h2>
-
-    <ul id="cart-list"></ul>
-
-    <p id="empty-cart">No items added yet.</p>
-</section>
-
-<footer>
-    <p>© 2026 AG BOOK CENTRE | Hyderabad</p>
-</footer>
-
-<script src="script.js"></script>
- <section class="cart-section">
 
     <h2>Shopping Cart</h2>
 
@@ -217,7 +192,13 @@
 
     <h3 id="total-price">Total: ₹0</h3>
 
-</section>   
+</section>
+
+<footer>
+    <p>© 2026 AG BOOK CENTRE | Hyderabad</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
