@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Shopping Cart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - AG BOOK CENTRE</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
+
     <h1>AG BOOK CENTRE</h1>
+
 </header>
 
 <section class="cart-section">
@@ -16,9 +23,68 @@
 
     <div id="cart-items"></div>
 
-    <h3 id="grand-total">Total: ₹0</h3>
+    <h3 id="grand-total">
+        Total: ₹0
+    </h3>
 
 </section>
+
+<section class="checkout-section">
+
+    <h2>Delivery Details</h2>
+
+    <form id="orderForm">
+
+        <input
+            type="text"
+            id="customerName"
+            placeholder="Full Name"
+            required>
+
+        <input
+            type="tel"
+            id="phone"
+            placeholder="Phone Number"
+            required>
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Email Address"
+            required>
+
+        <textarea
+            id="address"
+            placeholder="Delivery Address"
+            rows="5"
+            required></textarea>
+
+        <label>
+
+            Payment Method
+
+        </label>
+
+        <input
+            type="text"
+            value="Cash On Delivery"
+            readonly>
+
+        <button type="submit">
+
+            Place Order
+
+        </button>
+
+    </form>
+
+</section>
+
+<script src="cart.js"></script>
+
+</body>
+
+</html>
 
 <script>
 
