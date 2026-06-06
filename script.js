@@ -11,7 +11,7 @@ function addToCart(title, price, image) {
 
     item.innerHTML = `
         <img src="${image}" alt="${title}">
-        
+
         <div class="cart-details">
             <h4>${title}</h4>
             <p>₹${price}</p>
@@ -26,8 +26,8 @@ function addToCart(title, price, image) {
 
     total += price;
 
-    document.getElementById("total-price")
-        .innerText = "Total: ₹" + total;
+    document.getElementById("total-price").innerText =
+        "Total: ₹" + total;
 }
 
 function removeItem(button, price) {
@@ -36,6 +36,6 @@ function removeItem(button, price) {
 
     total -= price;
 
-    document.getElementById("total-price")
-        .innerText = "Total: ₹" + total;
+    document.getElementById("total-price").innerText =
+        "Total: ₹" + total;
 }
