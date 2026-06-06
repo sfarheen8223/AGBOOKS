@@ -192,3 +192,22 @@ footer {
         margin-top: 15px;
     }
 }
+.collection-subtitle{
+    margin-bottom:30px;
+    color:#666;
+    font-size:18px;
+}
+
+.book-card{
+    max-width:450px;
+    margin:auto;
+}
+
+.book-card img{
+    height:350px;
+    object-fit:cover;
+}
+
+.book-card p{
+    line-height:1.6;
+}
