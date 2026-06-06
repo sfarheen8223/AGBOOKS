@@ -1,33 +1,22 @@
 let total = 0;
 
-function addToCart(title, price, image) {
+function addToCart(title, price, image){
 
-    const cartContainer =
-        document.getElementById("cart-container");
+    let cart =
+        JSON.parse(localStorage.getItem("cart")) || [];
 
-    const item = document.createElement("div");
+    cart.push({
+        title:title,
+        price:price,
+        image:image
+    });
 
-    item.className = "cart-item";
+    localStorage.setItem(
+        "cart",
+        JSON.stringify(cart)
+    );
 
-    item.innerHTML = `
-        <img src="${image}" alt="${title}">
-
-        <div class="cart-details">
-            <h4>${title}</h4>
-            <p>₹${price}</p>
-        </div>
-
-        <button onclick="removeItem(this, ${price})">
-            Remove
-        </button>
-    `;
-
-    cartContainer.appendChild(item);
-
-    total += price;
-
-    document.getElementById("total-price").innerText =
-        "Total: ₹" + total;
+    alert(title + " added to cart!");
 }
 
 function removeItem(button, price) {
