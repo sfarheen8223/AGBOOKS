@@ -318,3 +318,18 @@ footer {
     color: #1e3a5f;
     font-size: 24px;
 }
+.cart-link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#cart-count {
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 12px;
+    margin-left: 5px;
+}
