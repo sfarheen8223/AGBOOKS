@@ -100,6 +100,6 @@ Payment:
 Cash On Delivery`;
 
     window.open(
-    `https://wa.me/918977901900?text=${encodeURIComponent(message)}`
+    `https://wa.me/918686249167?text=${encodeURIComponent(message)}`
     );
 });
